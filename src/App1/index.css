@@ -1,0 +1,38 @@
+/* 还需要 */
+/* body.light .box {
+  color: #f90;
+  background: #fff;
+}
+
+body.dark .box {
+  color: #eee;
+  background: #333;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+} */
+
+/* 如果是下面的写法有什么问题呢？ */
+/* 大概是样式优先级的问题，导致样式冲突了 */
+/* body.light {
+  color: #f90;
+  background: #fff;
+}
+
+body.dark {
+  color: #eee;
+  background: #333;
+}
+
+main {
+  color: red;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+} */
