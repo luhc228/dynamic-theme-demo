@@ -1,11 +1,6 @@
-import './init';
 import { useState } from 'react';
 import { Button, Checkbox, Form, Input, ConfigProvider } from 'antd';
-
-// import './index.less';
-// import './index.css';
-// import './theme-backup-1/dark.less';
-import 'antd/dist/antd.variable.css';
+import './index.css';
 
 const formItemLayout = {
   labelCol: { span: 4 },
@@ -21,7 +16,7 @@ export default function App4() {
   return (
     <main className={`${prefixCls}`}>
       <ConfigProvider 
-        // prefixCls={prefixCls}
+        prefixCls={prefixCls}
       >
         <>
           <Button onClick={() => setPrefixCls('light')}>Light</Button>
