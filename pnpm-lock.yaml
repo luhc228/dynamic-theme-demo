@@ -1752,7 +1752,7 @@ packages:
     resolution: {integrity: sha1-YRrhrPFPXoH3KVB0coGf6XM1WKk=, tarball: isomorphic-fetch/download/isomorphic-fetch-2.2.1.tgz}
     dependencies:
       node-fetch: 1.7.3
-      whatwg-fetch: 3.6.2
+      whatwg-fetch: 3.6.17
     dev: false
 
   /js-tokens/4.0.0:
@@ -3002,8 +3002,8 @@ packages:
       loose-envify: 1.4.0
     dev: false
 
-  /whatwg-fetch/3.6.2:
-    resolution: {integrity: sha1-3O0k838mJO0CgXJdUdDi4/5nf4w=, tarball: whatwg-fetch/download/whatwg-fetch-3.6.2.tgz}
+  /whatwg-fetch/3.6.17:
+    resolution: {integrity: sha512-c4ghIvG6th0eudYwKZY5keb81wtFz9/WeAHAoy8+r18kcWlitUIrmGFQ2rWEl4UCKUilD3zCLHOIPheHx5ypRQ==, tarball: whatwg-fetch/download/whatwg-fetch-3.6.17.tgz}
     dev: false
 
   /which-boxed-primitive/1.0.2:
